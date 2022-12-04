@@ -1,0 +1,114 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+
+    font-family: 'Fira Sans', sans-serif;
+
+}
+
+/* Header */
+
+header{
+
+    height: 70px;
+    width: 100%;
+    background: #7F7FD5;
+
+}
+
+nav{
+
+    display: flex;
+    padding: 1% 2%;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+nav img{
+
+    width: 75px;
+
+}
+
+.nav-links li{
+
+    list-style: none;
+    display: inline-block;
+    padding: 3px 15px;
+
+}
+
+.nav-links a{
+
+    color: #FFF;
+    text-decoration: none;
+    font-size: 16px;
+
+}
+
+.nav-links i{
+
+    margin-right: 5px;
+
+}
+
+.nav-links li::after{
+
+    content: '';
+    display: block;
+    margin: auto;
+    margin-top: 5px;
+    width: 0%;
+    height: 3px;
+    background: #B2DAFA;
+    transition: 0.5s;
+
+}
+
+.nav-links li:hover::after{
+
+    width: 100%;
+
+}
+
+
+/* Footer */
+
+footer{
+
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    padding: 5px 0;
+    background: #86A8E7;
+
+}
+
+.icons .fa-briefcase{
+
+    color: #3E31F5;
+    padding: 18px 0;
+    margin: 0 13px;
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+
+.icons .fa-briefcase:hover{
+
+    color: #FFF;
+
+}
+
+footer p{
+
+    color: #FFF;
+
+}
