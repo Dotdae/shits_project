@@ -1,5 +1,15 @@
 const router = require('express').Router();
 
+// Login/Sign up form.
+
+
+router.get('/access', (req, res) =>{
+
+    res.render('access', {title: 'Acceder'});
+
+});
+
+
 // Login.
 
 router.get('/login', (req, res) =>{
