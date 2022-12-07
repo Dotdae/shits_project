@@ -41,6 +41,49 @@ body{
 
 }
 
+/* Search bar */
+
+.search-container{
+
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 700px;
+    height: auto;
+    text-align: center;
+
+}
+
+.flex-form {
+
+    display: -webkit-box;
+    display: flex;
+    z-index: 10;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 25px;
+    width: 500px;
+    box-shadow: 4px 8px 16px rgba(0, 0, 0, 0.3);
+
+}
+
+.flex-form > * {
+
+    border: 0;
+    padding: 0 0 0 10px;
+    background: #fff;
+    line-height: 50px;
+    font-size: 1rem;
+    border-radius: 0;
+    outline: 0;
+}
+
+
+input[type="search"] {
+
+    flex-basis: 500px;
+
+}
 
 /* Card section */
 
